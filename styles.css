@@ -1,0 +1,99 @@
+/* * {
+  outline: 2px solid red;
+} */
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #007b94;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  padding: 0px;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 30px;
+  text-decoration: none;
+}
+
+/* Change background on mouse-over */
+.navbar .hoverable:hover {
+  background: #ffffff;
+  color: #007b94;
+}
+
+#logo {
+  height: auto;
+  width: 400px;
+  margin-top: 150px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+h1 {
+  color: #007b94;
+  margin-top: 0px;
+  font-family: 'Brush Script MT', cursive;
+  font-size: 100px;
+  text-align: center;
+}
+
+.cards {
+  font-family: 'Brush Script MT', cursive;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.card-category:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  transform: scale(1.1);
+  transition-duration:1s;
+}
+
+.card-category {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 35px;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  transition-duration:1s;
+}
+
+.card-link {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+#Lasagna {
+  background-image: url(/images/Lasagna.jpeg);
+}
+
+#Spaghetti {
+  background-image: url(/images/spaghetti.jpeg);
+}

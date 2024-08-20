@@ -3,16 +3,49 @@
 
 <head>
     <meta charset="UTF-8">
+
+    <!-- Viewport and Title -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Odin-Recipes</title>
+    <title>Dogshit-Recipes</title>
+
+    <!-- SEO Meta Tags -->
+    <link rel="icon" type="image/png" href="./images/SetupPuppy.jpg">
+    <meta name="author" content="TheOdinProject Test Project">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta property="og:site_name" content="Dogshit-Recipes">
+    <meta property="og:image" content="./images/SetupPuppy.jpg">
+    <meta name="google-site-verification" content="">
+
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <h1>Odin-Recipes</h1>
-    <ul>
-        <li><a href="/recipes/lasagna.html">Lasagna</a></li>
-        <li><a href="/recipes/spaghetti_with_ground_beef.html">Spaghetti with Ground Beef</a></li>
-    </ul>
+
+    <div class="navbar">
+        <a style="padding: 10px;" href="index.html">
+            <img style="height: 50px; width: 100px;" src="/images/NavLogo.png">
+        </a>
+        <a class="hoverable" href="#news">Recipes</a>
+        <a class="hoverable" href="#contact">About</a>
+    </div>
+
+    <img id="logo" src="./images/SetupPuppy.jpg">
+    <h1 class="logo" id="logo_title">Dogshit-Recipes</h1>
+
+    <div class="cards">
+        <div class="card-category" id="Lasagna">
+            <a href="/recipes/lasagna.html" class="card-link"></a>
+            Lasagna
+        </div>
+
+        <div class="card-category" id="Spaghetti">
+            <a href="/recipes/spaghetti_with_ground_beef.html" class="card-link"></a>
+            Spaghetti
+        </div>
+    </div>
+    
+
 
 </body>
 
